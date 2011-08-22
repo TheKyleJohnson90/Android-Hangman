@@ -1,0 +1,15 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/pref"
+		android:title="@+string/uisettings"
+		android:icon="@drawable/pref"
+	/>
+	<item android:id="@+id/menu"
+		android:title="@+string/uimenu"
+		android:icon="@drawable/more"
+	/>
+	<item android:id="@+id/quit"
+		android:title="@+string/uiquit"
+		android:icon="@drawable/close"
+	/>
+</menu>

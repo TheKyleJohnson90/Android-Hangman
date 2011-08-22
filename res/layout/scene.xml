@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<ImageView android:id="@+id/hungstate" android:background="@drawable/icon"
+		android:layout_width="fill_parent" android:layout_height="250dp"></ImageView>
+	<TextView android:id="@+id/guess" android:text="*********"
+		android:layout_height="wrap_content" android:background="#ee82ee"
+		android:gravity="center" android:textColor="#000"
+		android:layout_width="fill_parent" android:padding="25dp"></TextView>
+	<Spinner android:id="@+id/spinner" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<TextView android:id="@+id/guessed" android:layout_height="wrap_content"
+		android:background="#ee82ee" android:gravity="center"
+		android:textColor="#000" android:layout_width="fill_parent"
+		android:padding="25dp"></TextView>
+</LinearLayout>
